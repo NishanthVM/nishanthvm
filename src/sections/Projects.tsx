@@ -19,7 +19,7 @@ const portfolioProjects = [
       { title: "Attendance Tracking and Payment History" },
     ],
     link: "https://myselfandmymoves.com/",
-    image: myselfmymoves,
+    image: "https://images.unsplash.com/photo-1760182069336-34ee7adc6af1",
   },
   {
     company: "GoCart Inc.",
@@ -31,7 +31,7 @@ const portfolioProjects = [
       { title: "Imagekit integration" },
     ],
     link: "https://gocart-alpha.vercel.app/",
-    image: gocart,
+    image: "https://images.unsplash.com/photo-1760181703117-676fb9005e60",
   },
   {
     company: "Quantum Dynamics",
@@ -43,7 +43,7 @@ const portfolioProjects = [
       { title: "Serverless postgres Database in Neon" },
     ],
     link: "https://quick-ai-gamma-green.vercel.app/",
-    image: quickai,
+    image: "https://images.unsplash.com/photo-1760182069325-acdf8b316d06",
   },
 ];
 
@@ -102,6 +102,8 @@ export const ProjectsSection = ({ id }: ProjectsSectionProps) => {
                 <Image
                   src={project.image}
                   alt={project.title}
+                  width={600} // set an appropriate width
+                  height={400}
                   className="mt-8 -mb-4 md:-mb-0 lg:mt-0 lg:absolute lg:h-full lg:w-auto lg:max-w-none"
                 />
               </div>
