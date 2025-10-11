@@ -125,7 +125,7 @@ export const HeroSection = () => {
           </h1>
           <p className="mt-4 text-center text-white/60 md:text-lg">
             I specialize in creating user-friendly, accessible, and visually
-            appealing web applications. Let's work together to bring your ideas
+            appealing web applications. Let us work together to bring your ideas
             to life!
           </p>
         </div>
@@ -136,7 +136,7 @@ export const HeroSection = () => {
           </button>
           <button className="inline-flex items-center gap-2 border border-white bg-white text-gray-900 h-12 px-6 rounded-xl">
             <span>👋</span>
-            <span className="font-semibold">Let's Connect</span>
+            <span className="font-semibold">Let us Connect</span>
           </button>
         </div>
       </div>
