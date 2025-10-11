@@ -4,9 +4,9 @@ import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
 import grainImage from "@/assets/images/grain.jpg";
 import { SectionHeader } from "@/components/SectionHeader";
 import { Card } from "@/components/Card";
-import myselfmymoves from "@/assets/images/myselfmymoves.png";
-import gocart from "@/assets/images/gocart.png";
-import quickai from "@/assets/images/quickai.png";
+import myselfmymoves from "../assets/images/myselfmymoves.png";
+import gocart from "../assets/images/gocart.png";
+import quickai from "../assets/images/quickai.png";
 
 const portfolioProjects = [
   {
